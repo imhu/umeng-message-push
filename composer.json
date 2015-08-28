@@ -1,0 +1,21 @@
+{
+    "name": "imhu/umeng-message-push",
+    "description": "umeng messagePush 友盟消息推送",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imhu",
+            "email": "cwhuwei@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "imhu\\UmengMessage": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
